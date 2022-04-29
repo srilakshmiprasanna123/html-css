@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cards Gallery</title>
+		<style>
+			.cards {
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				align-items: stretch;
+				/* flex-direction: column; 
+							align-items: flex-end;
+							align-items: flex-start;
+							align-items: center;  */
+			}
+
+			.card {
+				flex: 0 0 200px;
+				margin: 10px;
+				border: 1px solid #ccc;
+				box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+			}
+
+			.card img {
+				max-width: 100%;
+				align-content: center;
+			}
+
+			.card .content {
+				padding: 0 20px 20px;
+			}
+
+			.card .content>button {
+				background: gray;
+				border: 0;
+				color: white;
+				padding: 10px;
+				width: 100%;
+			}
+
+			.card:nth-child(1) {
+				width: 420px;
+			}
+		</style>
+	</head>
+
+	<body class="cards">
+		  <article class="card">
+			<img src="TarakaliBeach.jpg" alt="TarakaliBeach" height="300" width="200">
+			<div class="content">
+				<h3>Tarkarli beach, Maharashtra</h3>
+				<p>Spend some solitude time at Tarkarli beach. It is one of the most famous beaches in India. 
+                    The white sand and the stunning view of the Sindhudurg fort around is worth your attention. 
+                    Here you can also enjoy adventurous water sports activities like parasailing, snorkelling, 
+                    and even scuba diving </p>
+                    <a  href="https://www.thrillophilia.com/tarkarli-resorts"> Read More</a>
+			
+			</div>
+		  </article>
+
+		<article class="card">
+			<img src="GOKARNA.jpg" alt="Gokarna" height="300" width="200">
+			<div class="content">
+				<h3>Gokarna, Karnataka</h3>
+				<p>The tranquility of the Gokarna beach is worth a visit. 
+                    It is also a well-known pilgrimage site with a perfect blend of beach fun and divinity!
+                     Plan a trip with your friends, family or even solo and enjoy sunbathing at the beach, 
+                     taking a dip or visiting the temple.</p>
+				 <a  href="https://www.karnatakatourism.org/tour-item/om-beach-gokarna/"> Read More</a>
+			</div>
+		</article>
+    </body>
+
+</html>
